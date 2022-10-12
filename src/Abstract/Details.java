@@ -11,8 +11,8 @@ public class Details {
 		
 		
 /*		properties:->
-		1) declared with abstract keyword
-        2)it can have abs and non abs methods
+		1) declared with abstract keyword (abstract class can have abs and non abs method but normal class cannot have abstract methods inside it)
+        2)it can have abs and non abs methods (non abs ->method not have body need to be implement in normal class)
         3)it cannot be instantiated (we cannot create object of abstract class if we create it give runtime error)
         4)it can have constructor and static methods also
         5)it can have final methods which will force subclass not to change the body of the methods		
